@@ -1,0 +1,30 @@
+@import "~antd/dist/antd.css";
+
+.rangePickerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rangePickerContainer .rangePicker {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.spinOuterContainer{
+    position: relative;
+}
+
+.spinOuterContainer .spinInnerContainer{
+    display: table;
+    margin: 0 auto;
+}
+
+.spinOuterContainer .spinInnerContainer .spinElement{
+    position: fixed;
+    margin-top: 200px;
+    z-index: 1;
+}

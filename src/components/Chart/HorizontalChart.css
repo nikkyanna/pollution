@@ -1,0 +1,18 @@
+@import "~antd/dist/antd.css";
+
+.chartContainer{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chartContainerHeader{
+    border-bottom: 1px solid var(--color-grey-dark);
+    padding: 7px;
+}
+
+.chartContainer .noData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
